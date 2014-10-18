@@ -1,0 +1,28 @@
+{
+  "name": "tessel-hygrothermograph-tweetbot",
+  "version": "1.0.0",
+  "description": "Hygrothermograph tweet bot using Tessel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mia-0032/tessel-hygrothermograph-tweetbot.git"
+  },
+  "keywords": [
+    "tessel",
+    "climate",
+    "module"
+  ],
+  "author": "Mia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mia-0032/tessel-hygrothermograph-tweetbot/issues"
+  },
+  "homepage": "https://github.com/mia-0032/tessel-hygrothermograph-tweetbot",
+  "dependencies": {
+    "climate-si7020": "~0.1.0",
+    "twitter": "~0.2.12"
+  }
+}
